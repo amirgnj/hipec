@@ -32,7 +32,7 @@ def show_predict_page():
 
     st.write("""### Please  provide the following information:""")
     
-    Age = st.slider("Age", 56, 90, 18)
+    Age = st.slider("Age", 18, 90, 55)
     BMIkgm2 = st.slider("BMI", 14, 40, 25)
 
     CCI = st.slider("Charlson comorbidity index (CCI)", 0, 24, 0)
